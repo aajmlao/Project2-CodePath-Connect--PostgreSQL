@@ -13,7 +13,7 @@ const renderTeam = async () => {
         document.getElementById('NBA-Titles').textContent = `NBA Titles: ${team.championship}`;
         document.getElementById('image').src = team.image;
         const link = document.createElement('a');
-        link.textContent = 'Return Homne';
+        link.textContent = 'Return Home';
         link.setAttribute('role', 'button');
         link.classList.add('secondary');
         link.href = '/'
